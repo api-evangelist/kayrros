@@ -1,0 +1,53 @@
+{
+    "name": "Kayrros",
+    "description": "<p>We track the journey of energy from production to consumption to help our customers understand the fundamentals and financials of the market globally, and to benefit from that knowledge. The information we produce can cover all energy sources, in all geographies across every step of the energy journey. It helps our customers to minimise their risk, maximise their upside and to make better decisions.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28705-www-kayrros-com.jpg",
+    "tags": [
+        "api not found",
+        "energy",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/kayrros\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Kayrros",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28705-www-kayrros-com.jpg",
+            "humanURL": "https:\/\/www.kayrros.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/kayrros-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/kayrros"
+        },
+        {
+            "type": "Email",
+            "url": "contact@kayrros.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/Kayrros"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/Kayrros_Energy"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.kayrros.com"
+        }
+    ]
+}
