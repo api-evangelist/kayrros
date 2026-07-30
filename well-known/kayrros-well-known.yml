@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: searched
+description: >-
+  Probed the /.well-known/ discovery surface for the Kayrros public hosts
+  (www.kayrros.com marketing site, app.kayrros.com application). No well-known
+  discovery documents are published; all probes returned 404. Kayrros exposes no
+  public OpenID/OAuth discovery, api-catalog, ai-plugin, or security.txt.
+hosts:
+- host: https://www.kayrros.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://app.kayrros.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404

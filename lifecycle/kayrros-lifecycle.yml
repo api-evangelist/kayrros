@@ -1,0 +1,48 @@
+generated: '2026-07-19'
+method: searched
+source: >-
+  https://status.kayrros.com/ (Atlassian Statuspage). Kayrros publishes no public
+  developer portal, API reference, versioning policy, or deprecation policy;
+  their product APIs are delivered to contracted customers via app.kayrros.com,
+  so versioning/deprecation could not be observed from public sources.
+versioning:
+  scheme: null
+  mechanism: null
+  docs: null
+  notes: >-
+    No public API versioning policy is documented. Kayrros exposes per-product
+    APIs to customers (each product on the status page tracks a dedicated "API"
+    subsystem), but the version and change mechanism are not publicly disclosed.
+deprecation:
+  policy_url: null
+  sunset_header: null
+  notes: No public deprecation or RFC 8594 Sunset/Deprecation policy was found.
+sla:
+  url: null
+  public_uptime_target: null
+  notes: >-
+    No numeric public uptime SLA published. The status page reports rolling
+    90-day uptime per component (most at or near 100.0%). Availability
+    commitments are presumed handled via enterprise/customer agreements.
+status_page: https://status.kayrros.com/
+status_page_provider: Atlassian Statuspage
+status_components:
+  note: >-
+    Each Kayrros product on the status page is monitored across three subsystems
+    — Website dashboards, API, and Emails distribution.
+  products:
+  - Battery Watch
+  - Carbon Watch
+  - Crypto Watch
+  - Crude Oil Intelligence (COI)
+  - High Frequency Crude Oil Intelligence (HF COI)
+  - E&P OpsTracker
+  - E&P Daily Frac / Frac Hit Protect
+  - FireWatch
+  - Forest Carbon Monitor (FCM)
+  - Industrial Energy Demand
+  - Jet Fuel Index
+  - LNG Monitoring
+  - Methane Watch
+  - On-road Demand
+deprecated_operations: []
