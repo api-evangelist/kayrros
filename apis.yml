@@ -1,8 +1,17 @@
 aid: kayrros
 name: Kayrros
-description: 'Kayrros is a company surfaced as a portfolio company of index-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: data. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Kayrros is an environmental-intelligence and geospatial-AI company that
+  independently tracks human activity and its physical footprint worldwide by
+  combining satellite imagery, alternative data, and machine learning. Its
+  products span energy markets — crude oil and jet fuel intelligence, LNG,
+  renewables, solar and battery-storage construction monitoring, industrial and
+  on-road energy demand, and stockpiles — and environmental risk — methane
+  emissions via Methane Watch, wildfire risk, forest-carbon and deforestation
+  monitoring, and carbon accounting. Kayrros delivers asset-level data feeds,
+  APIs, and dashboards to traders, operators, financial institutions,
+  regulators, insurers, and the public sector. The company was acquired by
+  Energy Aspects in May 2026.
 url: https://raw.githubusercontent.com/api-evangelist/kayrros/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,33 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://logo.clearbit.com/kayrros.com
 tags:
 - Company
 - Data
+- Geospatial
+- Satellite Imagery
+- Energy
+- Environmental Intelligence
+- Emissions
+- Methane
+- Analytics
+- Climate
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +53,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/kayrros-domain-security.yml
 - type: Website
-  url: http://kayrros.com
+  url: https://www.kayrros.com
+- type: Blog
+  url: https://www.kayrros.com/latest-news/
+- type: Support
+  url: https://www.kayrros.com/contact-us/
+- type: Login
+  url: https://app.kayrros.com/login
+- type: TermsOfService
+  url: https://www.kayrros.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.kayrros.com/privacy-policy/
+- type: StatusPage
+  url: https://status.kayrros.com/
+- type: Lifecycle
+  url: lifecycle/kayrros-lifecycle.yml
+- type: LLMsTxt
+  url: llms/kayrros-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
