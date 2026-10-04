@@ -56,7 +56,8 @@ tags:
 - Methane
 - Analytics
 - Climate
-- Machine-Learning
+- Machine Learning
+- Remote Sensing
 tags_raw:
 - Company
 - Data
@@ -69,6 +70,8 @@ tags_raw:
 - Analytics
 - Climate
 - Machine Learning
+- Machine-Learning
+- Remote Sensing
 apis: []
 maintainers:
 - FN: Kin Lane
